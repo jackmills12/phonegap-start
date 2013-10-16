@@ -46,4 +46,17 @@ var app = {
 
         console.log('Received Event: ' + id);
     }
+    window.localStorage.setItem (
+        "phonenumber",
+        "07436438443");
+         window.localStorage.setItem (
+        "postcode",
+        "34fe34");
+         window.localStorage.setItem (
+        "height",
+        "6ft1");
+        
+         window.localStorage.getItem (
+        "phonenumber");
+        )
 };
